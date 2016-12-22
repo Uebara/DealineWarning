@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="193.0" prefWidth="426.0" styleClass="decoration-background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="meiko.application.view.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" layoutX="76.0" layoutY="49.0" rotate="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="54.0" />
+      <Text layoutX="84.0" layoutY="96.0" rotate="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="啊">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="379.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="32.0" prefWidth="33.0" styleClass="decoration-button-close" />
+   </children>
+</AnchorPane>

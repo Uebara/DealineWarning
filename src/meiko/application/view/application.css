@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#anchorPane-id{
+	-fx-background-color:#FFFFFF00;
+    }
+
+.text-filed{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+
+/*
+*	Close button
+*/
+#button-decorate{
+    -fx-background-radius: 0.0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./close.png");
+    -fx-background-repeat:no-repeat;
+}
+#button-decorate:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./close-hover.png");
+    -fx-background-repeat:no-repeat;
+}
